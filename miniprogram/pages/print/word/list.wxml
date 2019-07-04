@@ -1,0 +1,54 @@
+<view class='outer'>
+  <view wx:for='{{uploadList}}' wx:key='{{index}}'>
+    <view class='s-operator'>
+      <view class='row'>
+        <view class='s-main-text'>{{item.name}}</view>
+        <view class='btn-pre' data-index='{{index}}' bindtap='previewFile'>预览</view>
+      </view>
+      <view class='s-row'>
+        <view class='s-text'>打印份数</view>
+        <view class='s-num'>
+          <input data-index='{{index}}' class='num' bindinput='changeNum' type='number' value='{{item.num}}'></input>
+        </view>
+      </view>
+
+      <view class='s-row'>
+        <view class='radio-text'>双面打印</view>
+        <radio-group data-index='{{index}}' class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}" /> {{item.value}}
+          </label>
+        </radio-group>
+      </view>
+      <view class='s-remark'>
+        <view class='b-text'>打印备注</view>
+        <view class='b-remark'>
+          <input data-index='{{index}}' class='remark' placeholder='填写打印范围(x页至x页)等信息(选填,默认全部打印)' bindinput='changeRemark' value='{{item.remark}}'></input>
+        </view>
+      </view>
+      <view class='btn-dd'>
+        <view class='btn-de' data-index='{{index}}' bindtap='toDelete'>删除</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class='row'>
+  <view class='btn-0' bindtap='toSelect'>继续选择</view>
+  <view class='btn-1' bindtap='submit'>确认</view>
+</view>
+
+<view class='pop'>
+  <view class='s-row'>
+    <view class='pop-text'>打印地点</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">{{array[index]}}</view>
+    </picker>
+  </view>
+
+  <view class='row'>
+    <view class='btn-0' bindtap='toSelect'>继续选择</view>
+    <view class='btn-1' bindtap='submit'>确认</view>
+  </view>
+</view>

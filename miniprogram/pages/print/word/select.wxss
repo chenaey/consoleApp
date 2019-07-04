@@ -1,0 +1,24 @@
+page {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.step {
+  padding: 30rpx;
+  background: #fff;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rpx;
+}
+
+.tip {
+  font-size: 28rpx;
+  margin-top: 16rpx;
+  color: #909399;
+
+}

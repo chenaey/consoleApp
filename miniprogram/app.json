@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/print/word/index",
+    "pages/print/word/select",
+    "pages/print/word/list"
+  ],
+  "window": {
+    "backgroundColor": "#fcfcfc",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园打印助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

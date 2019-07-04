@@ -1,0 +1,18 @@
+<view class='operator'>
+  <view class='main-text' bindtap='selectFile'>黑白模式</view>
+  <view class='little-text'>将文档以黑白色彩模式打印</view>
+</view>
+<view class='operator'>
+  <view class='main-text'>全彩模式</view>
+  <view class='little-text'>将文档以全彩模式打印</view>
+</view>
+
+<view class='step'>
+  <view class='title'>如何选择打印文件?</view>
+  <view class='tip'>
+    1.选择想要打印文件的聊天纪录
+  </view>
+  <view class='tip'>
+    2.勾选想要打印的文件即可打印啦
+  </view>
+</view>

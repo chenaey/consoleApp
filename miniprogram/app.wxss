@@ -1,0 +1,28 @@
+.top-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 16rpx;
+  margin-bottom: 20rpx;
+}
+
+.img-one {
+  width: 96%;
+  border-radius: 10rpx;
+}
+
+.operator {
+  padding: 60rpx;
+  background: #fff;
+  margin: 20rpx;
+  border-radius: 10rpx;
+}
+
+.main-text {
+  font-size: 36rpx;
+}
+
+.little-text {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #909399;
+}

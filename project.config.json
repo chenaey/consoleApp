@@ -1,0 +1,59 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx0c160132b72ae839",
+	"projectname": "consoleApp",
+	"libVersion": "2.5.0",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "打印下单",
+					"pathName": "pages/print/word/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "打印选择",
+					"pathName": "pages/print/word/select",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "打印下单",
+					"pathName": "pages/print/word/list",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

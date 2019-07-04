@@ -1,0 +1,15 @@
+<view class='top-img'>
+  <image class='img-one' mode='widthFix' src='cloud://sfx-123.7366-sfx/zhku/index01.png'>
+  </image>
+</view>
+<view class='option'>
+  <view class='btn-print'>照片打印</view>
+  <view class='btn-print' bindtap='navigPrint'>文档打印</view>
+</view>
+<view class=' btns'>
+  <view class='btn'>我的订单</view>
+  <view class='btn'>联系客服</view>
+  <view class='btn'>打印点</view>
+  <view class='btn'>关于我们</view>
+
+</view>

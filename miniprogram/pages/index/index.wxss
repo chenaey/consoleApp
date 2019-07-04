@@ -1,0 +1,49 @@
+page {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.top-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 16rpx;
+  margin-bottom: 20rpx;
+}
+
+.img-one {
+  width: 96%;
+  border-radius: 10rpx;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50rpx;
+}
+
+.btn-print {
+  padding: 40rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  -moz-box-shadow: 4rpx 20rpx 18rpx #999;
+  -webkit-box-shadow: 4rpx 10rpx 28rpx #999;
+  box-shadow: 25rpx 20rpx 20rpx #999;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+  font-size: 28rpx;
+  margin-top: 60rpx;
+}
+
+.btn {
+  padding: 25rpx;
+  background-color: #fff;
+  margin-bottom: 40rpx;
+  border-radius: 10rpx;
+  -moz-box-shadow: 4rpx 20rpx 18rpx #999;
+  -webkit-box-shadow: 4rpx 10rpx 28rpx #999;
+  box-shadow: 25rpx 20rpx 20rpx #999;
+}

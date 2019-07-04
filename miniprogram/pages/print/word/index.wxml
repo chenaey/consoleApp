@@ -1,0 +1,15 @@
+<view class='top-img'>
+  <image class='img-one' mode='widthFix' src='cloud://sfx-123.7366-sfx/zhku/index03.png'>
+  </image>
+</view>
+
+
+<view class='operator' bindtap='navigator'>
+  <view class='main-text'>选择微信文档打印</view>
+  <view class='little-text'>从微信聊天记录中选择文档打印,支持的文件格式有:Word、PPT、PDF、Excel</view>
+</view>
+
+<view class='operator'>
+  <view class='main-text'>选择本地文档打印</view>
+  <view class='little-text'>手机本地文档一键打印</view>
+</view>
